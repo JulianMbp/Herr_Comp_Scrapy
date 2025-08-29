@@ -1,8 +1,8 @@
 from scrapy_selenium import SeleniumRequest
 import scrapy
 
-class CountryPopulationSeleniumSpider(scrapy.Spider):
-    name = "country_population_selenium_spider"
+class PopulationSpider(scrapy.Spider):
+    name = "population_spider"
     start_urls = [
         "https://www.worldometers.info/world-population/"
     ]
